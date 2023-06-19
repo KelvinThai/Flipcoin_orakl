@@ -1,0 +1,241 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "IVRFCoordinator",
+  "sourceName": "@bisonai/orakl-contracts/src/v0.1/interfaces/IVRFCoordinator.sol",
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "requestId",
+          "type": "uint256"
+        }
+      ],
+      "name": "cancelRequest",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "requestId",
+          "type": "uint256"
+        }
+      ],
+      "name": "getCommitment",
+      "outputs": [
+        {
+          "internalType": "bytes32",
+          "name": "",
+          "type": "bytes32"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "getPrepaymentAddress",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "getRequestConfig",
+      "outputs": [
+        {
+          "internalType": "uint32",
+          "name": "",
+          "type": "uint32"
+        },
+        {
+          "internalType": "bytes32[]",
+          "name": "",
+          "type": "bytes32[]"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "consumer",
+          "type": "address"
+        },
+        {
+          "internalType": "uint64",
+          "name": "accId",
+          "type": "uint64"
+        },
+        {
+          "internalType": "uint64",
+          "name": "nonce",
+          "type": "uint64"
+        }
+      ],
+      "name": "pendingRequestExists",
+      "outputs": [
+        {
+          "internalType": "bool",
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "bytes32",
+          "name": "keyHash",
+          "type": "bytes32"
+        },
+        {
+          "internalType": "uint32",
+          "name": "callbackGasLimit",
+          "type": "uint32"
+        },
+        {
+          "internalType": "uint32",
+          "name": "numWords",
+          "type": "uint32"
+        },
+        {
+          "internalType": "address",
+          "name": "refundRecipient",
+          "type": "address"
+        }
+      ],
+      "name": "requestRandomWords",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "requestId",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "payable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "bytes32",
+          "name": "keyHash",
+          "type": "bytes32"
+        },
+        {
+          "internalType": "uint64",
+          "name": "accId",
+          "type": "uint64"
+        },
+        {
+          "internalType": "uint32",
+          "name": "callbackGasLimit",
+          "type": "uint32"
+        },
+        {
+          "internalType": "uint32",
+          "name": "numWords",
+          "type": "uint32"
+        }
+      ],
+      "name": "requestRandomWords",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "requestId",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint32",
+          "name": "maxGasLimit",
+          "type": "uint32"
+        },
+        {
+          "internalType": "uint32",
+          "name": "gasAfterPaymentCalculation",
+          "type": "uint32"
+        },
+        {
+          "components": [
+            {
+              "internalType": "uint32",
+              "name": "fulfillmentFlatFeeKlayPPMTier1",
+              "type": "uint32"
+            },
+            {
+              "internalType": "uint32",
+              "name": "fulfillmentFlatFeeKlayPPMTier2",
+              "type": "uint32"
+            },
+            {
+              "internalType": "uint32",
+              "name": "fulfillmentFlatFeeKlayPPMTier3",
+              "type": "uint32"
+            },
+            {
+              "internalType": "uint32",
+              "name": "fulfillmentFlatFeeKlayPPMTier4",
+              "type": "uint32"
+            },
+            {
+              "internalType": "uint32",
+              "name": "fulfillmentFlatFeeKlayPPMTier5",
+              "type": "uint32"
+            },
+            {
+              "internalType": "uint24",
+              "name": "reqsForTier2",
+              "type": "uint24"
+            },
+            {
+              "internalType": "uint24",
+              "name": "reqsForTier3",
+              "type": "uint24"
+            },
+            {
+              "internalType": "uint24",
+              "name": "reqsForTier4",
+              "type": "uint24"
+            },
+            {
+              "internalType": "uint24",
+              "name": "reqsForTier5",
+              "type": "uint24"
+            }
+          ],
+          "internalType": "struct ICoordinatorBase.FeeConfig",
+          "name": "feeConfig",
+          "type": "tuple"
+        }
+      ],
+      "name": "setConfig",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x",
+  "deployedBytecode": "0x",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

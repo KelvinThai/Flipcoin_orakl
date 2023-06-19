@@ -1,0 +1,369 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/Users/lythongdoc/Data/Blockchain/bisonai/flipcoin/contracts/contracts/FlipCoin.sol": {
+      "lastModificationDate": 1686903350394,
+      "contentHash": "6dd6e2747053535c19d38d0c9294a201",
+      "sourceName": "contracts/FlipCoin.sol",
+      "solcConfig": {
+        "version": "0.8.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "openzeppelin-solidity/contracts/token/ERC20/IERC20.sol",
+        "openzeppelin-solidity/contracts/access/Ownable.sol",
+        "openzeppelin-solidity/contracts/token/ERC20/utils/SafeERC20.sol",
+        "@bisonai/orakl-contracts/src/v0.1/VRFConsumerBase.sol",
+        "@bisonai/orakl-contracts/src/v0.1/interfaces/IVRFCoordinator.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.16"
+      ],
+      "artifacts": [
+        "FlipCoin"
+      ]
+    },
+    "/Users/lythongdoc/Data/Blockchain/bisonai/flipcoin/contracts/node_modules/openzeppelin-solidity/contracts/token/ERC20/IERC20.sol": {
+      "lastModificationDate": 1686887157563,
+      "contentHash": "ad7c2d0af148c8f9f097d65deeb4da6b",
+      "sourceName": "openzeppelin-solidity/contracts/token/ERC20/IERC20.sol",
+      "solcConfig": {
+        "version": "0.8.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC20"
+      ]
+    },
+    "/Users/lythongdoc/Data/Blockchain/bisonai/flipcoin/contracts/node_modules/openzeppelin-solidity/contracts/token/ERC20/utils/SafeERC20.sol": {
+      "lastModificationDate": 1686887157877,
+      "contentHash": "76814c83c32552ed2b521c816b4d801a",
+      "sourceName": "openzeppelin-solidity/contracts/token/ERC20/utils/SafeERC20.sol",
+      "solcConfig": {
+        "version": "0.8.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../IERC20.sol",
+        "../../../utils/Address.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "SafeERC20"
+      ]
+    },
+    "/Users/lythongdoc/Data/Blockchain/bisonai/flipcoin/contracts/node_modules/@bisonai/orakl-contracts/src/v0.1/VRFConsumerBase.sol": {
+      "lastModificationDate": 1686889634975,
+      "contentHash": "9371eaff9c4e9a1165ce616f2b593824",
+      "sourceName": "@bisonai/orakl-contracts/src/v0.1/VRFConsumerBase.sol",
+      "solcConfig": {
+        "version": "0.8.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.16"
+      ],
+      "artifacts": [
+        "VRFConsumerBase"
+      ]
+    },
+    "/Users/lythongdoc/Data/Blockchain/bisonai/flipcoin/contracts/node_modules/@bisonai/orakl-contracts/src/v0.1/interfaces/IVRFCoordinator.sol": {
+      "lastModificationDate": 1686889634975,
+      "contentHash": "441dadc64a95dd9797ef40b0ebbd1903",
+      "sourceName": "@bisonai/orakl-contracts/src/v0.1/interfaces/IVRFCoordinator.sol",
+      "solcConfig": {
+        "version": "0.8.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IVRFCoordinatorBase.sol",
+        "./ICoordinatorBase.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.16"
+      ],
+      "artifacts": [
+        "IVRFCoordinator"
+      ]
+    },
+    "/Users/lythongdoc/Data/Blockchain/bisonai/flipcoin/contracts/node_modules/openzeppelin-solidity/contracts/access/Ownable.sol": {
+      "lastModificationDate": 1686887156541,
+      "contentHash": "8398972af73b4e9e5ff3b31cad86234f",
+      "sourceName": "openzeppelin-solidity/contracts/access/Ownable.sol",
+      "solcConfig": {
+        "version": "0.8.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../utils/Context.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Ownable"
+      ]
+    },
+    "/Users/lythongdoc/Data/Blockchain/bisonai/flipcoin/contracts/node_modules/openzeppelin-solidity/contracts/utils/Address.sol": {
+      "lastModificationDate": 1686887156548,
+      "contentHash": "ad714a6368ee7d43cded6bbe8af0b155",
+      "sourceName": "openzeppelin-solidity/contracts/utils/Address.sol",
+      "solcConfig": {
+        "version": "0.8.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.1"
+      ],
+      "artifacts": [
+        "Address"
+      ]
+    },
+    "/Users/lythongdoc/Data/Blockchain/bisonai/flipcoin/contracts/node_modules/@bisonai/orakl-contracts/src/v0.1/interfaces/IVRFCoordinatorBase.sol": {
+      "lastModificationDate": 1686889634975,
+      "contentHash": "83d974502f9043b394eb2f7361cd4711",
+      "sourceName": "@bisonai/orakl-contracts/src/v0.1/interfaces/IVRFCoordinatorBase.sol",
+      "solcConfig": {
+        "version": "0.8.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.16"
+      ],
+      "artifacts": [
+        "IVRFCoordinatorBase"
+      ]
+    },
+    "/Users/lythongdoc/Data/Blockchain/bisonai/flipcoin/contracts/node_modules/@bisonai/orakl-contracts/src/v0.1/interfaces/ICoordinatorBase.sol": {
+      "lastModificationDate": 1686889634975,
+      "contentHash": "33a5744963201884f6a736ed315b1f95",
+      "sourceName": "@bisonai/orakl-contracts/src/v0.1/interfaces/ICoordinatorBase.sol",
+      "solcConfig": {
+        "version": "0.8.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.16"
+      ],
+      "artifacts": [
+        "ICoordinatorBase"
+      ]
+    },
+    "/Users/lythongdoc/Data/Blockchain/bisonai/flipcoin/contracts/node_modules/openzeppelin-solidity/contracts/utils/Context.sol": {
+      "lastModificationDate": 1686887156549,
+      "contentHash": "5f2c5c4b6af2dd4551027144797bc8be",
+      "sourceName": "openzeppelin-solidity/contracts/utils/Context.sol",
+      "solcConfig": {
+        "version": "0.8.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Context"
+      ]
+    }
+  }
+}
